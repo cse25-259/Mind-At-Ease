@@ -1,0 +1,82 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:
+linear-gradient(135deg,#0f0c29,#302b63,#ff00cc); 
+background-size: 400% 400%; 
+animation: gradientFlow 12s ease infinate;
+color:white;
+}
+
+@keyframes gradientFlow{
+0%{background-position: 0% 50%;}
+50%{background-position: 100% 50%;} 
+100%{background-position: 0% 50%;}   
+}
+
+header{
+background:rgba(0,0,0,0.4);
+color:white;
+text-align:center;
+padding:25px;
+backdrop-filter: blur(10px);    
+}
+
+nav{
+background: black; 
+padding:12px;
+text-align:center;   
+}
+
+nav a{
+color:#ff66ff;
+margin:15px;
+text-decoration:none;
+font-weight:bold;    
+}
+
+nav a:hover{
+color:#ff008c;
+}
+
+section{
+background: rgba(0,0,0,0.6); 
+margin:30px;
+padding:25px;
+border-radius:12px;
+box-shadow:0px 5px 20px rgba(255,0,200,0.4);   
+}
+
+footer{
+background: rgba(0,0,0,0.7);  
+color:white;
+text-align:center;
+padding:12px;  
+}
+
+form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;    
+}
+
+input, textarea{
+margin:10px 0;
+padding:10px;  
+border-radius:5px;
+border:1px solid #ccc;  
+}
+
+button{
+padding: 12px;
+background: #12105a;
+color: white;
+border:none;
+border-radius:5px;
+cursor:pointer;    
+}
+
+button:hover{
+background: #737610;    
+}
